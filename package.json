@@ -1,0 +1,22 @@
+{
+  "name": "postman2",
+  "version": "1.0.0",
+  "description": "descripcion sape",
+  "main": "index.js",
+  "scripts": {
+    "newmanAlan:json": "newman run collections/RunOnNewman.json",
+    "newmanAlan:link": "newman run https://www.getpostman.com/collections/dfb422e8ac374be95bab",
+    "newmanAlan:report":"newman run collections/RunOnNewman.json -r htmlextra"
+  },
+  "repository": {
+    "type": "git",
+    "url": "repostiroriogit"
+  },
+  "author": "alan",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.2",
+    "newman-reporter-html": "^1.0.5",
+    "newman-reporter-htmlextra": "^1.22.11"
+  }
+}
