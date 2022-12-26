@@ -4,9 +4,10 @@
   "description": "descripcion sape",
   "main": "index.js",
   "scripts": {
-    "newmanAlan:json": "newman run collections/RunOnNewman.json",
+    "newmanAlan:json": "newman run collections/collectionEnvironmen.json -e environments/EnvirontmentAlan.json",
     "newmanAlan:link": "newman run https://www.getpostman.com/collections/dfb422e8ac374be95bab",
-    "newmanAlan:report":"newman run collections/RunOnNewman.json -r htmlextra"
+    "newmanAlan:report":"newman run collections/RunOnNewman.json -r htmlextra",
+    "newmanAlan:enviroment":"newman run collections/collectionEnvironment2.json -e environments/EnvAlan2.json"
   },
   "repository": {
     "type": "git",

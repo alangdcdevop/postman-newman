@@ -1,0 +1,21 @@
+{
+	"id": "29ed1b82-a1fc-4814-93d0-04bf04547335",
+	"name": "EnvirontmentAlan",
+	"values": [
+		{
+			"key": "base_url_mock",
+			"value": "https://fdc6f808-b075-4c14-9f3a-6df1a5b82ab3.mock.pstmn.io",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "base_url_petstore",
+			"value": "https://petstore.swagger.io/v2",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2022-12-22T13:41:14.156Z",
+	"_postman_exported_using": "Postman/9.30.4"
+}

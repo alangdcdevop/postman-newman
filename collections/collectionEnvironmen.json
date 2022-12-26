@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "413b6f7c-0d13-4730-b44e-fcd2a122f21a",
+		"name": "Z_ColectionEnvironment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "728562"
+	},
+	"item": [
+		{
+			"name": "PruebasEnvironment",
+			"item": [
+				{
+					"name": "Create Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"petId\": 0,\r\n  \"quantity\": 0,\r\n  \"shipDate\": \"2022-12-22T12:45:07.996Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_petstore}}/store/order",
+							"host": [
+								"{{base_url_petstore}}"
+							],
+							"path": [
+								"store",
+								"order"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
